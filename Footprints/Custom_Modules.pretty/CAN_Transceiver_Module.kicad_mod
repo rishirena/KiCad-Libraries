@@ -1,0 +1,205 @@
+(footprint "CAN_Transceiver_Module"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TJA1050 TTL-to-CAN module, provisional 23x12mm layout")
+	(tags "TJA1050 CAN TTL module")
+	(property "Reference" "REF**"
+		(at 0 -7.2 0)
+		(layer "F.SilkS")
+		(uuid "561791aa-00c9-474a-a3dd-6eb26ec8efa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAN_Transceiver_Module"
+		(at 0 7.2 0)
+		(layer "F.Fab")
+		(uuid "d2cc66fe-e7ed-4784-b08f-8486d12f5819")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87930590-b770-4a21-a056-26a523b15b1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17fa622a-ece6-492c-8f08-c7e185cf2ae9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -11.5 -6)
+		(end 11.5 6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0fe00efa-1386-4525-83e7-fdde5b4782eb")
+	)
+	(fp_rect
+		(start -12 -6.5)
+		(end 12 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e2559fbf-e377-4ef4-acfe-dfec97bbc844")
+	)
+	(fp_rect
+		(start -11.5 -6)
+		(end 11.5 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7ae9ec28-87a1-4c01-820b-f41b3ff3a539")
+	)
+	(fp_text user "CAN"
+		(at -7.1 0.1 90)
+		(layer "F.SilkS")
+		(uuid "7b7eaf25-c646-49d1-83b1-6f4fdb2eb44a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "TTL"
+		(at 7.1 0 90)
+		(layer "F.SilkS")
+		(uuid "29d5b461-ac98-473f-a22c-238a93456177")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "CANL"
+		(at -7.7 -0.65 0)
+		(layer "F.Fab")
+		(uuid "fae319d1-028e-4f35-96d5-7768e63d9ba0")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "CANH"
+		(at -7.7 1.9 0)
+		(layer "F.Fab")
+		(uuid "20c8549e-b8e0-499b-ae37-243f21fdda87")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "VCC   TX  RX   GND"
+		(at 8 0 90)
+		(layer "F.Fab")
+		(uuid "bec02cd7-be83-4ae4-aa85-2ab59d5d221f")
+		(effects
+			(font
+				(size 0.55 0.55)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -10 -4.8)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "108f9cdd-994f-43d6-85bd-eb587397e82f")
+	)
+	(pad "" np_thru_hole circle
+		(at -10 4.8)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e575c10f-715f-420b-9915-482d241129a0")
+	)
+	(pad "1" thru_hole circle
+		(at 10 -3.81)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d7349d4-4fdc-4c3a-9f35-1ede7f37751c")
+	)
+	(pad "2" thru_hole circle
+		(at 10 -1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0cef7fe3-81ca-4014-9082-40061df1e3bd")
+	)
+	(pad "3" thru_hole circle
+		(at 10 1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f7e878d-f5c7-49e6-bd3a-513ea917150a")
+	)
+	(pad "4" thru_hole circle
+		(at 10 3.81)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0292db8-ae66-4ec9-a8ee-c88d49b4c611")
+	)
+	(pad "5" thru_hole circle
+		(at -10 1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a252b2b8-9b7d-4430-9370-7afbd2bb6bf6")
+	)
+	(pad "6" thru_hole circle
+		(at -10 -1.27)
+		(size 1.8 1.8)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee09d9d5-db9f-4d09-b935-d9aee7676785")
+	)
+	(embedded_fonts no)
+)
